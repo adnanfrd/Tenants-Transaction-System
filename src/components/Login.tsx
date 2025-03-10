@@ -39,7 +39,7 @@ const Login = () => {
           
           <button
             type="submit"
-            className="w-full bg-[#5f8eff] text-white p-3 rounded-full shadow-md hover:bg-[#4c7dff] transition"
+            className="w-full bg-[#5f8eff] text-white p-3 rounded-full shadow-md cursor-pointer hover:bg-[#4c7dff] transition"
           >
             Login
           </button>
@@ -52,7 +52,7 @@ const Login = () => {
       {showForgotPassword && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full relative">
-            <button className="absolute top-3 right-3 text-gray-500" onClick={() => setShowForgotPassword(false)}>
+            <button className="absolute top-3 right-3 text-gray-500 cursor-pointer" onClick={() => setShowForgotPassword(false)}>
               <X size={20} />
             </button>
             <h3 className="text-lg font-semibold mb-4">Reset Password</h3>

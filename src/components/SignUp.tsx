@@ -98,7 +98,7 @@ const Signup = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#5f8eff] text-white p-3 rounded-full shadow-md hover:bg-[#4c7dff] transition flex items-center justify-center gap-2"
+            className="w-full bg-[#5f8eff] text-white p-3 rounded-full shadow-md cursor-pointer hover:bg-[#4c7dff] transition flex items-center justify-center gap-2"
           >
             Sign Up →
           </button>
