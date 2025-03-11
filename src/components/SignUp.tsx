@@ -97,10 +97,9 @@ const Signup = () => {
           </div>
 
           <button
-            type="submit"
             className="w-full bg-[#5f8eff] text-white p-3 rounded-full shadow-md cursor-pointer hover:bg-[#4c7dff] transition flex items-center justify-center gap-2"
           >
-            Sign Up →
+           <Link href="/validate"> Sign Up →</Link>
           </button>
         </form>
         <p className="text-center text-sm text-gray-600 mt-4">
