@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function ValidateForm() {
@@ -46,10 +47,9 @@ export default function ValidateForm() {
                         />
                     </div>
                     <button
-                        type="submit"
-                        className="w-full rounded-lg bg-blue-500 px-4 py-2 text-white transition hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300"
+                        className="w-full rounded-lg bg-blue-500 px-4 py-2 text-white transition hover:bg-blue-600 focus:outline-none cursor-pointer focus:ring focus:ring-blue-300"
                     >
-                        Validate →
+                        <Link href="/account">Validate →</Link>
                     </button>
                 </form>
             </div>
