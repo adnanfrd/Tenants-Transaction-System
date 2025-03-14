@@ -46,7 +46,7 @@ const AccountDetails: React.FC = () => {
                         <p><strong>Due Date:</strong> 2/23/24</p>
                         <p><strong>Bill Cycle:</strong> 1/22 - 2/22</p>
                         <p><strong>Next Payment:</strong> 2/24/24</p>
-                        <button className="mt-4 w-full rounded-lg bg-blue-500 px-4 py-2 text-white transition hover:bg-blue-600">Make a payment →</button>
+                        <button className="mt-4 w-full rounded-lg bg-blue-500 px-4 py-2 text-white transition cursor-pointer hover:bg-blue-600"><Link href="/payment">Make a payment →</Link></button>
                     </div>
                 </div>
             </div>
