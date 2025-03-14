@@ -12,7 +12,7 @@ const AccountDetails: React.FC = () => {
                     
                     <div className="flex items-center space-x-4">
                         
-                        <button className="rounded-full border px-4 py-2 text-sm text-gray-700 shadow-md transition hover:bg-gray-200">Chat</button>
+                        <button className="rounded-full border px-4 py-2 text-sm text-gray-700 shadow-md cursor-pointer transition hover:bg-gray-200"><Link href="/chat">Chat</Link></button>
                     </div>
                 </div>
 
