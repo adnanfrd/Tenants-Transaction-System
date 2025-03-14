@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import React from 'react';
 
 const AccountDetails: React.FC = () => {
@@ -28,7 +29,7 @@ const AccountDetails: React.FC = () => {
                             <p><strong>Monthly Amount:</strong> <span className="text-green-600">$800.00</span></p>
                         </div>
                     </div>
-                    <button className="mt-4 w-full rounded-lg bg-blue-500 px-4 py-2 text-white transition hover:bg-blue-600">View Lease →</button>
+                    <button className="mt-4 w-full rounded-lg bg-blue-500 px-4 py-2 text-white transition cursor-pointer hover:bg-blue-600"><Link href="/lease">View Lease →</Link></button>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
